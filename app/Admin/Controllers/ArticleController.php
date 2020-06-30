@@ -3,6 +3,8 @@
 namespace App\Admin\Controllers;
 
 use App\Admin\Repositories\Article;
+use App\Models\Nav;
+use App\Models\Tag;
 use Dcat\Admin\Controllers\AdminController;
 use Dcat\Admin\Form;
 use Dcat\Admin\Grid;
@@ -71,12 +73,13 @@ class ArticleController extends AdminController
         return Form::make(new Article(), function (Form $form) {
             $form->display('id');
             $form->text('article_title')->rules('required');
-            $form->text('article_tag');
+            $form->tags('article_tag')->pluck('tag_content', 'id')->options(Tag::all());
             $form->text('article_describe');
             $form->markdown('article_content')->rules('required')->height('800');
             $form->text('article_click');
             $form->switch('article_show')->default(1)->rules('required');
             $form->number('article_sort')->default(100);
+            $form->select('nav_id')->rules('required');
             $form->text('nav_id');
 
             $form->display('created_at');

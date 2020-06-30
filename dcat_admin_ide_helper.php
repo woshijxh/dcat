@@ -41,6 +41,13 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection article_show
      * @property Grid\Column|Collection article_sort
      * @property Grid\Column|Collection nav_id
+     * @property Grid\Column|Collection tag_content
+     * @property Grid\Column|Collection tag_click
+     * @property Grid\Column|Collection nav_title
+     * @property Grid\Column|Collection nav_open
+     * @property Grid\Column|Collection nav_sort
+     * @property Grid\Column|Collection nav_pid
+     * @property Grid\Column|Collection nav_route
      * @property Grid\Column|Collection parent_id
      * @property Grid\Column|Collection order
      * @property Grid\Column|Collection icon
@@ -91,6 +98,13 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection article_show(string $label = null)
      * @method Grid\Column|Collection article_sort(string $label = null)
      * @method Grid\Column|Collection nav_id(string $label = null)
+     * @method Grid\Column|Collection tag_content(string $label = null)
+     * @method Grid\Column|Collection tag_click(string $label = null)
+     * @method Grid\Column|Collection nav_title(string $label = null)
+     * @method Grid\Column|Collection nav_open(string $label = null)
+     * @method Grid\Column|Collection nav_sort(string $label = null)
+     * @method Grid\Column|Collection nav_pid(string $label = null)
+     * @method Grid\Column|Collection nav_route(string $label = null)
      * @method Grid\Column|Collection parent_id(string $label = null)
      * @method Grid\Column|Collection order(string $label = null)
      * @method Grid\Column|Collection icon(string $label = null)
@@ -146,6 +160,13 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection article_show
      * @property Show\Field|Collection article_sort
      * @property Show\Field|Collection nav_id
+     * @property Show\Field|Collection tag_content
+     * @property Show\Field|Collection tag_click
+     * @property Show\Field|Collection nav_title
+     * @property Show\Field|Collection nav_open
+     * @property Show\Field|Collection nav_sort
+     * @property Show\Field|Collection nav_pid
+     * @property Show\Field|Collection nav_route
      * @property Show\Field|Collection parent_id
      * @property Show\Field|Collection order
      * @property Show\Field|Collection icon
@@ -196,6 +217,13 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection article_show(string $label = null)
      * @method Show\Field|Collection article_sort(string $label = null)
      * @method Show\Field|Collection nav_id(string $label = null)
+     * @method Show\Field|Collection tag_content(string $label = null)
+     * @method Show\Field|Collection tag_click(string $label = null)
+     * @method Show\Field|Collection nav_title(string $label = null)
+     * @method Show\Field|Collection nav_open(string $label = null)
+     * @method Show\Field|Collection nav_sort(string $label = null)
+     * @method Show\Field|Collection nav_pid(string $label = null)
+     * @method Show\Field|Collection nav_route(string $label = null)
      * @method Show\Field|Collection parent_id(string $label = null)
      * @method Show\Field|Collection order(string $label = null)
      * @method Show\Field|Collection icon(string $label = null)
